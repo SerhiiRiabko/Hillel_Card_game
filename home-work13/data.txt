@@ -1,0 +1,3 @@
+name,surname,age,salary
+Bohdan,Dovbysh,28,100
+John,Doe,30,200
