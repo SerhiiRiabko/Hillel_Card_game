@@ -1,6 +1,10 @@
-
 from html_render import HTMLRenderer
 from txt_taken import TxtData
+
+
+class TxtToHtmlAdapter:
+    def __init__(self, file_path):
+        self.txt_data = TxtData(file_path)
 
 
 class TxtToHtmlAdapter:
