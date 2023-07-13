@@ -92,7 +92,3 @@ def test_human_gender_property():
     assert human.gender == "female"
     human.change_gender("male")
     assert human.gender == "male", "Human is not male"
-
-
-if __name__ == "__main__":
-    pytest.main()
