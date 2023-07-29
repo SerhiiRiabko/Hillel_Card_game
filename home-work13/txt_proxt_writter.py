@@ -11,7 +11,7 @@ class TxtWriterProxy:
 
     def save_data(self):
         if not self.modified:
-            return  # No need to write if the data has not been modified
+            return
 
         with open(self.file_path, 'w') as file:
             for record in self.data:
